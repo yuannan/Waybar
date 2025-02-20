@@ -71,6 +71,7 @@ void startSignalThread() {
 }
 
 int main(int argc, char* argv[]) {
+  spdlog::critical("HELLO!");
   try {
     auto* client = waybar::Client::inst();
 
